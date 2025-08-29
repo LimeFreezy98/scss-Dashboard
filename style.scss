@@ -63,3 +63,31 @@ body {
     }
 
  }
+
+//   content layout 
+   .content {
+     flex: 1;
+     padding: 20px;
+
+     .title {
+        background: #ffb957;
+        padding: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+     }
+
+     .stats {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+     }
+
+     .card {
+        flex: 1;
+        background: #64b5f6;
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+     }
+
+   }
