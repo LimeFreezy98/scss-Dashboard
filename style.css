@@ -24,4 +24,26 @@ body {
 }
 .top-nav .nav-links li.active {
   background: #8bc34a;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.sidemenu {
+  width: 200px;
+  background: #009680;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.sidemenu .sidelogo {
+  background: #004d40;
+  padding: 20px;
+  text-align: center;
+}
+.sidemenu .side-tab {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

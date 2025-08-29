@@ -34,6 +34,32 @@ body {
 
  }
 
+//  dashboard layout 
+   .dashboard{
+    display: flex;
+   }
+
 
 
 //  side menu
+ .sidemenu {
+    width: 200px;
+    background: #009680;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    .sidelogo {
+        background: #004d40;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .side-tab{
+        background-color: #4caf50;
+        padding: 20px;
+        text-align: center;
+    }
+
+ }
