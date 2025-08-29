@@ -26,7 +26,7 @@ body {
         cursor: pointer;
 
         &.active {
-            background: #8bc34a;
+            background: #85B96E;
         }
      }
 
@@ -53,6 +53,14 @@ body {
         background: #004d40;
         padding: 20px;
         text-align: center;
+        font-size: 15px;
+
+    }
+    
+    .logo-title {
+        padding: 5px;
+        text-align: center;
+        font-size: 20px;
 
     }
 
@@ -73,7 +81,9 @@ body {
         background: #ffb957;
         padding: 15px;
         margin-bottom: 20px;
-        text-align: center;
+        border-radius: 20px;
+        font-size: 35px;
+        text-align: left;
      }
 
      .stats {
@@ -87,7 +97,38 @@ body {
         background: #64b5f6;
         padding: 30px;
         border-radius: 15px;
+        font-size: 25px;
         text-align: center;
      }
+
+   }
+
+   .bottom-section{
+    display: flex;
+    gap: 20px;
+
+     .description {
+        flex: 2;
+        background: #2c278d;
+        color: white;
+        padding: 30px;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 25px;
+     }
+
+
+     .code {
+        flex: 1;
+        background: #4dd0e1;
+        color: white;
+        padding: 30px;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 20px;
+
+     }
+
+
 
    }
