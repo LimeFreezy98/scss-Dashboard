@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0 font-family Arial, sans-serif;
+  background: #e0e0e0;
+}
+
+.top-nav {
+  background: #4D4D4D;
+  color: white;
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+  padding: 10;
+}
+.top-nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.top-nav .nav-links li {
+  background-color: #343434;
+  padding: 5px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.top-nav .nav-links li.active {
+  background: #8bc34a;
+}/*# sourceMappingURL=style.css.map */
