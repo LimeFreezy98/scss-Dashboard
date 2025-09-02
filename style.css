@@ -1,6 +1,8 @@
 body {
-  margin: 0 font-family Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
   background: #e0e0e0;
+  overflow: hidden;
 }
 
 .top-nav {
@@ -9,21 +11,41 @@ body {
   display: flex;
   justify-self: space-between;
   align-items: center;
-  padding: 10;
+  padding: 15px, 25px;
+}
+.top-nav .logo-text {
+  font-size: 32px;
+  font-weight: bold;
 }
 .top-nav .nav-links {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .top-nav .nav-links li {
   background-color: #343434;
-  padding: 5px 12px;
+  padding: 10px 18px;
   border-radius: 8px;
+  font-size: 20px;
   cursor: pointer;
 }
 .top-nav .nav-links li.active {
   background: #85B96E;
+}
+.top-nav .nav-links .account {
+  background-color: #343434;
+}
+.top-nav .nav-links .profile-icon {
+  background-color: #815bc9;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 18px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
 }
 
 .dashboard {
@@ -32,26 +54,40 @@ body {
 
 .sidemenu {
   width: 200px;
+  height: 92vh;
   background: #009680;
   color: white;
   display: flex;
   flex-direction: column;
+  padding: 61px 0px;
+  gap: 67px;
 }
 .sidemenu .sidelogo {
   background: #004d40;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   font-size: 15px;
 }
 .sidemenu .logo-title {
-  padding: 5px;
+  padding: 0px;
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
 }
 .sidemenu .side-tab {
   background-color: #4caf50;
   padding: 20px;
   text-align: center;
+  font-size: 18px;
+  border-radius: 8px;
+  flex: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.sidemenu .side-tab:hover {
+  background-color: #43a047;
 }
 
 .content {
@@ -69,7 +105,7 @@ body {
 .content .stats {
   display: flex;
   gap: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 157px;
 }
 .content .card {
   flex: 1;
@@ -85,7 +121,7 @@ body {
   gap: 20px;
 }
 .bottom-section .description {
-  flex: 2;
+  flex: 1.5;
   background: #2c278d;
   color: white;
   padding: 30px;
@@ -98,7 +134,7 @@ body {
   background: #4dd0e1;
   color: white;
   padding: 30px;
-  font-size: 25px;
+  font-size: 19px;
   text-align: center;
   border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
